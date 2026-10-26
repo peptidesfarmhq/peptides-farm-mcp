@@ -1,0 +1,8 @@
+# Smithery.ai MCP Server Configuration for peptides.farm
+name: peptides-farm-biomedical-mcp
+displayName: peptides.farm — FDA, CMS, Orange Book, DMF/FEI, NADAC & Peptide Intelligence
+description: Entity-resolved FDA Orange Book patent cliffs, Type II DMF/FEI inspections, Medicaid NADAC price shocks, CMS Part B J-Code spreads, OASIS port refusals, and GLP-1 clinical trial datasets with x402 USDC bulk unlock.
+homepage: https://peptides.farm/mcp/
+remote:
+  type: streamable-http
+  url: https://peptides.farm/api/mcp

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "peptides-farm-biomedical-mcp",
+  "description": "Entity-resolved FDA Orange Book patent cliffs, Type II DMF/FEI API inspections, Medicaid NADAC price shocks, CMS J-Code reimbursement spreads, OASIS port refusals, and GLP-1 clinical trial intelligence MCP server.",
+  "homepage": "https://peptides.farm/mcp/",
+  "Maintainers": [
+    {
+      "name": "peptides.farm Data Engineering",
+      "url": "https://peptides.farm"
+    }
+  ],
+  "endpoints": {
+    "streamableHttp": "https://peptides.farm/api/mcp"
+  }
+}

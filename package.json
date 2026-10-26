@@ -1,0 +1,31 @@
+{
+  "name": "peptides-farm-mcp",
+  "version": "1.2.0",
+  "description": "MCP Server for peptides.farm — 15 Entity-Resolved FDA, CMS, NIH & Analytical Chemistry Datasets + 10 Technical Specification Validators ($1-$149 x402 USDC on Base & Solana)",
+  "license": "MIT",
+  "author": "Datil Technologies, Inc. (66 West Flagler Street, Miami, FL 33132)",
+  "homepage": "https://peptides.farm/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peptidesfarmhq/peptides-farm-mcp.git"
+  },
+  "type": "module",
+  "bin": {
+    "peptides-farm-mcp": "./bin/index.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "fda",
+    "clinical-trials",
+    "orange-book",
+    "nadac",
+    "j-code",
+    "peptides",
+    "x402",
+    "biotech"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
