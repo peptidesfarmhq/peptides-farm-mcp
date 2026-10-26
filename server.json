@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.peptides-farm/biomedical-mcp",
+  "description": "Entity-resolved FDA Orange Book patents, Type II DMF/FEI inspections, NADAC price shocks, CMS J-Code spreads, and peptide intelligence MCP server.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/peptidesfarmhq/peptides-farm-mcp",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "2.5.0"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://peptides.farm/api/mcp"
+    }
+  ]
+}
