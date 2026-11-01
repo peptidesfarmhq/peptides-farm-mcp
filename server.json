@@ -1,19 +1,10 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.peptides-farm/biomedical-mcp",
-  "description": "Entity-resolved FDA Orange Book patents, Type II DMF/FEI inspections, NADAC price shocks, CMS J-Code spreads, and peptide intelligence MCP server.",
-  "status": "active",
-  "repository": {
-    "url": "https://github.com/peptidesfarmhq/peptides-farm-mcp",
-    "source": "github"
-  },
-  "version_detail": {
-    "version": "2.5.0"
-  },
-  "remotes": [
-    {
-      "transport_type": "streamable-http",
-      "url": "https://peptides.farm/api/mcp"
-    }
-  ]
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.peptidesfarmhq/peptides-farm-mcp",
+  "title": "peptides.farm",
+  "description": "Cited peptide monographs, trials, safety and FDA status as JSON. Pay per call in USDC via x402.",
+  "version": "3.0.0",
+  "websiteUrl": "https://peptides.farm/developers/",
+  "repository": { "url": "https://github.com/peptidesfarmhq/peptides-farm-mcp", "source": "github" },
+  "remotes": [ { "type": "streamable-http", "url": "https://peptides.farm/mcp" } ]
 }

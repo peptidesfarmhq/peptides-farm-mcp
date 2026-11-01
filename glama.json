@@ -1,15 +1,9 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "name": "peptides-farm-biomedical-mcp",
-  "description": "Entity-resolved FDA Orange Book patent cliffs, Type II DMF/FEI API inspections, Medicaid NADAC price shocks, CMS J-Code reimbursement spreads, OASIS port refusals, and GLP-1 clinical trial intelligence MCP server.",
-  "homepage": "https://peptides.farm/mcp/",
-  "Maintainers": [
-    {
-      "name": "peptides.farm Data Engineering",
-      "url": "https://peptides.farm"
-    }
-  ],
-  "endpoints": {
-    "streamableHttp": "https://peptides.farm/api/mcp"
-  }
+  "name": "peptides-farm-mcp",
+  "description": "Cited peptide monographs, clinical trials, safety and FDA status as JSON (PubMed, FDA labels, ClinicalTrials.gov). Free discovery tools; paid fields per call in USDC via x402.",
+  "homepage": "https://peptides.farm/developers/",
+  "repository": "https://github.com/peptidesfarmhq/peptides-farm-mcp",
+  "maintainers": ["eraad"],
+  "endpoints": { "streamableHttp": "https://peptides.farm/mcp" }
 }

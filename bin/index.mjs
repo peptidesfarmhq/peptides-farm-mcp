@@ -2,11 +2,11 @@
 /**
  * peptides-farm-mcp — Zero-dependency stdio-to-Streamable-HTTP MCP Bridge
  * Operated by Datil Technologies, Inc., 66 West Flagler Street, Miami, FL 33132
- * Remote endpoint: https://peptides.farm/api/mcp
+ * Remote endpoint: https://peptides.farm/mcp
  */
 import readline from "node:readline";
 
-const ENDPOINT = process.env.PEPTIDES_FARM_MCP_URL || "https://peptides.farm/api/mcp";
+const ENDPOINT = process.env.PEPTIDES_FARM_MCP_URL || "https://peptides.farm/mcp";
 
 const rl = readline.createInterface({
   input: process.stdin,
